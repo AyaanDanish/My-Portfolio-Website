@@ -10,8 +10,8 @@ const AboutPage = () => {
       }}
     >
       <div style={{ display: "flex", flexDirection: "column" }}>
-        <h3 style={{ textAlign: "center", color: "var(--accent-color)" }}>
-          A Little Bit About 
+        <h3 style={{ textAlign: "center", color: "var(--accent-color)"  }}>
+          A Little Bit About Me
         </h3>
         <br />
         <p style={{ textAlign: "center" }}>
@@ -36,10 +36,7 @@ const AboutPage = () => {
         </p>
       </div>
 
-      <img
-        src="pic.png"
-        style={{ width: "30%", borderRadius: "50%", margin: "20px" }}
-      />
+      
     </div>
   );
 };
