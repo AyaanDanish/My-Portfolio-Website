@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 
 *,
 *::before,
@@ -16,6 +16,41 @@
   background: rgba(97, 218, 251, 0.25);
 }
 
+.python {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.python:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.javascript {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.javascript:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.flask {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.flask:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.beautiful-soup {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.beautiful-soup:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.tensorflow {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.tensorflow:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
 .node {
   border: 0.1rem solid rgb(131, 205, 41);
 }
@@ -23,31 +58,66 @@
   background: rgba(131, 205, 41, 0.25);
 }
 
-.mongodb {
+.azure {
   border: 0.1rem solid rgb(67, 153, 52);
 }
-.mongodb:hover {
+.azure:hover {
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux {
+.keras {
+  border: 0.1rem solid rgb(67, 153, 52);
+}
+.keras:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.openai {
   border: 0.1rem solid rgb(118, 74, 188);
 }
-.redux:hover {
+.openai:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
+.numpy {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.numpy:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
+.supabase {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.supabase:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
+.html {
   border: 0.1rem solid rgb(82, 143, 240);
 }
-.razorpay:hover {
+.html:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
-.material-ui {
+.pandas {
+  border: 0.1rem solid rgb(82, 143, 240);
+}
+.pandas:hover {
+  background: rgba(82, 143, 240, 0.25);
+}
+
+.css {
   border: 0.1rem solid rgb(25, 118, 210);
 }
-.material-ui:hover {
+.css:hover {
+  background: rgba(25, 118, 210, 0.25);
+}
+
+.jupyter {
+  border: 0.1rem solid rgb(25, 118, 210);
+}
+.jupyter:hover {
   background: rgba(25, 118, 210, 0.25);
 }
 

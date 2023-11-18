@@ -5,32 +5,31 @@
     "image": "/chatgpt logo.png",
     "description": "A chatbot app powered by Azure OpenAI Models",
     "tags": ["react", "flask", "azure", "openai", "html", "css"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "source_code": "https://github.com/AyaanDanish/Chatbot-App-Frontend-React"
+    
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "Project Sahara",
+    "image": "/sahara.jpg",
+    "description": "An NGO Donation website to help those in need",
+    "tags": ["supabase", "node", "html", "css", "javascript"],
+    "source_code": "https://github.com/AyaanDanish/SDAProject-NGO-Website"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "Palm Vein Biometrics with CNNs",
+    "image": "/palm.jpg",
+    "description": "A deep learning experiment to perform palm-vein recognition, powered by Convolutional Neural Networks",
+    "tags": ["python", "tensorflow", "keras", "pandas", "jupyter"],
+    "source_code": "https://github.com/AyaanDanish/PalmVein-Recognition-With-CNN"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
+    "name": "SpaceX Falcon9 Landing Prediction",
+    "image": "/spacex.jpg",
+    "description": "A Data Science project to mine for SpaceX Launch data and use it to predict the outcome of future launches",
+    "tags": ["python", "pandas", "jupyter", "beautiful-soup", "numpy"],
     "source_code": "https://github.com/itsnitinr/vscode-portfolio",
     "demo": "http://vscode-portfolio.vercel.app/"
   }

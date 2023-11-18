@@ -1,4 +1,3 @@
-import styles from "../styles/ContactCode.module.css";
 
 const AboutPage = () => {
   return (
