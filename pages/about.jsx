@@ -11,7 +11,7 @@ const AboutPage = () => {
     >
       <div style={{ display: "flex", flexDirection: "column" }}>
         <h3 style={{ textAlign: "center", color: "var(--accent-color)" }}>
-          A Little Bit About Me
+          A Little Bit About 
         </h3>
         <br />
         <p style={{ textAlign: "center" }}>
