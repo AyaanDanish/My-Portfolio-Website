@@ -60,7 +60,7 @@ const CertificationsPage = () => {
   return (
     <>
       <h2 style={{ textAlign: "center", color: "var(--accent-color)" }}>
-        Some Data Science and Web Dev Certifications That I've Earned
+        Some Data Science and Web Dev Certifications I've Earned
       </h2>
       <div className={styles.container}>
         {certs.map((cert, idx) => (
