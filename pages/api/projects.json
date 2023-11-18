@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
+    "name": "Azure OpenAI Chatbot",
+    "image": "/chatgpt logo.png",
+    "description": "A chatbot app powered by Azure OpenAI Models",
+    "tags": ["react", "flask", "azure", "openai", "html", "css"],
     "source_code": "https://github.com/itsnitinr/driwwwle-v2",
     "demo": "https://driwwwle.com/"
   },
