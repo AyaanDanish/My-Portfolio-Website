@@ -10,9 +10,9 @@ const AboutPage = () => {
       }}
     >
       <div style={{ display: "flex", flexDirection: "column" }}>
-        <h3 style={{ textAlign: "center", color: "var(--accent-color)"  }}>
+        <h2 style={{ textAlign: "center", color: "var(--accent-color)"  }}>
           A Little Bit About Me
-        </h3>
+        </h2>
         <br />
         <p style={{ textAlign: "center" }}>
           I'm a Senior Year CompSci student at FAST-NUCES, doing my best to make
