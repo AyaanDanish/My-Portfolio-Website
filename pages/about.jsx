@@ -36,7 +36,10 @@ const AboutPage = () => {
         </p>
       </div>
 
-      
+      <img
+        src="pic.png"
+        style={{ width: "30%", borderRadius: "50%", margin: "20px" }}
+      />
     </div>
   );
 };
