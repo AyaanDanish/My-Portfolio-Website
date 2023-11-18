@@ -1,7 +1,4 @@
 import Image from "next/image";
-import EyeIcon from "./icons/EyeIcon";
-import HeartIcon from "./icons/HeartIcon";
-import CommentIcon from "./icons/CommentIcon";
 import styles from "../styles/ArticleCard.module.css";
 
 const CertificationCard = ({ article: certs }) => {
