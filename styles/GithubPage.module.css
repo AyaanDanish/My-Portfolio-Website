@@ -6,6 +6,7 @@
   align-items: center;
   height: 100px;
   margin-bottom: 1.5rem;
+  width: 100%;
 }
 
 .user > div {

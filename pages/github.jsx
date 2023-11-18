@@ -13,7 +13,9 @@ const GithubPage = ({ repos, user }) => {
   };
 
   return (
-    <>
+    <div
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
       <div className={styles.user}>
         <div>
           <Image
@@ -41,11 +43,9 @@ const GithubPage = ({ repos, user }) => {
         <GitHubCalendar
           username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
           theme={theme}
-          hideColorLegend
-          hideMonthLabels
         />
       </div>
-    </>
+    </div>
   );
 };
 
@@ -71,7 +71,7 @@ export async function getStaticProps() {
   let repos = await repoRes.json();
   repos = repos
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 6);
+    .slice(0, 10);
 
   return {
     props: { title: "GitHub", repos, user },

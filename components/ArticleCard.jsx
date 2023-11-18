@@ -1,28 +1,30 @@
-import Image from 'next/image';
-import EyeIcon from '../components/icons/EyeIcon';
-import HeartIcon from '../components/icons/HeartIcon';
-import CommentIcon from '../components/icons/CommentIcon';
-import styles from '../styles/ArticleCard.module.css';
+import Image from "next/image";
+import EyeIcon from "../components/icons/EyeIcon";
+import HeartIcon from "../components/icons/HeartIcon";
+import CommentIcon from "../components/icons/CommentIcon";
+import styles from "../styles/ArticleCard.module.css";
 
-const ArticleCard = ({ article }) => {
+const CertificationCard = ({ article: certs }) => {
   return (
     <a
-      href={article.url}
+      href={certs.url}
       target="_blank"
       rel="noopener noreferrer"
       className={styles.container}
     >
       <Image
-        src={article.cover_image}
-        alt={article.title}
+        src={certs.cover_image}
+        alt={certs.title}
         width={300}
         height={150}
       />
       <div className={styles.content}>
-        <h3 className={styles.title}>{article.title}</h3>
-        <p>{article.description}</p>
+        <h3 className={styles.title} style={{ textAlign: "center" }}>
+          {certs.title}
+        </h3>
       </div>
-      <div className={styles.stats}>
+
+      {/* <div className={styles.stats}>
         <div className={styles.stat}>
           <EyeIcon className={styles.icon} /> {article.page_views_count}
         </div>
@@ -32,9 +34,9 @@ const ArticleCard = ({ article }) => {
         <div className={styles.stat}>
           <CommentIcon className={styles.icon} /> {article.comments_count}
         </div>
-      </div>
+      </div> */}
     </a>
   );
 };
 
-export default ArticleCard;
+export default CertificationCard;
