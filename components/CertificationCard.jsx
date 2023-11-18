@@ -20,8 +20,6 @@ const CertificationCard = ({ article: certs }) => {
           {certs.title}
         </h3>
       </div>
-
-  
     </a>
   );
 };

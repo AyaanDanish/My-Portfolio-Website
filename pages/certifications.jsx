@@ -1,7 +1,9 @@
+import { useState } from "react";
 import CertificationCard from "../components/CertificationCard";
 import styles from "../styles/ArticlesPage.module.css";
 
 const CertificationsPage = () => {
+  const [searchTerm, setSearchTerm] = useState("");
   const certs = [
     {
       title: "IBM Data Science Professional Certificate",
@@ -57,13 +59,52 @@ const CertificationsPage = () => {
       url: "https://www.freecodecamp.org/certification/AyaanDanish/scientific-computing-with-python-v7",
     },
   ];
+
+  const filteredCerts = certs.filter((cert) =>
+    cert.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <>
-      <h2 style={{ textAlign: "center", color: "var(--accent-color)" }}>
-        Some Data Science and Web Dev Certifications I've Earned
-      </h2>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
+        <h2
+          style={{
+            textAlign: "left",
+            color: "var(--accent-color)",
+            justifySelf: "flex-start",
+          }}
+        >
+          Some Data Science and Web Dev Certifications I've Earned
+        </h2>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-end",
+            justifySelf: "flex-end",
+          }}
+        >
+          <label>Search: </label>
+          <input
+            type="text"
+            style={{
+              margin: "0 10px",
+              borderRadius: "20px",
+              border: "None",
+              padding: "0 10px",
+            }}
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
+      </div>
       <div className={styles.container}>
-        {certs.map((cert, idx) => (
+        {filteredCerts.map((cert, idx) => (
           <CertificationCard key={idx} article={cert} />
         ))}
       </div>
