@@ -5,9 +5,9 @@ import styles from "../styles/ProjectsPage.module.css";
 const ProjectsPage = ({ projects }) => {
   return (
     <>
-      <h3 style={{ textAlign: "center", color: "var(--accent-color)" }}>
+      <h2 style={{ textAlign: "center", color: "var(--accent-color)" }}>
         Key Projects I've Worked On
-      </h3>
+      </h2>
       <div className={styles.container}>
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />

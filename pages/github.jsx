@@ -18,13 +18,16 @@ const GithubPage = ({ repos, user }) => {
     >
       <div className={styles.user}>
         <div>
-          <Image
-            src={user.avatar_url}
-            className={styles.avatar}
-            alt={user.login}
-            width={50}
-            height={50}
-          />
+          <a href="https://github.com/AyaanDanish" target="_blank">
+            <Image
+              src={user.avatar_url}
+              className={styles.avatar}
+              alt={user.login}
+              width={50}
+              height={50}
+            />
+          </a>
+
           <h3 className={styles.username}>{user.login}</h3>
         </div>
         <div>
